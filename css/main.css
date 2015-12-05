@@ -68,7 +68,6 @@ body{
     background-color: #eee;
 }
 
-.
 
 .home{
     background-image:url(../img/venue.jpg);
@@ -80,12 +79,42 @@ body{
     text-align: center;
     margin-top:0px;
 }
+
+ul{
+    float: right;
+    height: 0px;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-family: helvetica arial;
+}
+
+
+
+li{
+    text-align: right;
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 0.7em;
+}
+
 .space{
     margin-top:180px; 
 }
 
 .logo{
-    width: 40px;
+    width: 3em;
+    text-align: center;
+    display: block;
+
+}
+
+img{
+    text-align: center;
+
 }
 
 
