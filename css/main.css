@@ -68,13 +68,25 @@ body{
     background-color: #eee;
 }
 
+.
+
 .home{
     background-image:url(../img/venue.jpg);
-    background-repeat: no-repeat; 
     height: 400px;
-    width: 100%;
+    background-size: cover;
+    background-position: center;
+    border-bottom: 0.25em solid #00ffda;
+    position: static;
+    text-align: center;
+    margin-top:0px;
+}
+.space{
+    margin-top:180px; 
 }
 
+.logo{
+    width: 40px;
+}
 
 
 
