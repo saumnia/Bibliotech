@@ -65,19 +65,29 @@ textarea {
 
 
 body{
-    background-color: #eee;
+    background-color: #fff;
+    text-align: center;
 }
 
+.container{
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    
+}
 
-.home{
+.topbar{
     background-image:url(../img/venue.jpg);
-    height: 400px;
+    height: 300px;
     background-size: cover;
     background-position: center;
     border-bottom: 0.25em solid #00ffda;
-    position: static;
-    text-align: center;
-    margin-top:0px;
+    overflow: hidden;
+
+}
+
+.space{
+    padding-top: 0.7em; 
 }
 
 ul{
@@ -86,39 +96,178 @@ ul{
     text-decoration: none;
 }
 
-a{
+li a{
     text-decoration: none;
     color: #fff;
-    font-family: helvetica arial;
+    font-family: 'Oxygen', sans-serif;
 }
-
 
 
 li{
     text-align: right;
-    display: inline-block;
     vertical-align: middle;
-    padding-top: 0.7em;
+    padding: 0.5em;
 }
 
-.space{
-    margin-top:180px; 
+
+div > img{
+    width: 2.5em;
+    display:block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    float: center;
 }
 
-.logo{
+.start{
+    padding-top: 10em;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+button{
+    background-color: transparent;
+    color: #fff;
+    padding: 0.2em 0.6em;
+    border: #fff solid 0.15em;
+    border-radius: 0.5em;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1em;
+    margin: 0.3em;
+    vertical-align: center;
+}
+
+button:hover {
+    color: #00ffda;
+    border: #00ffda solid 0.15em;
+    opacity:0.5;
+}
+
+button:active{
+    opacity: 1;
+}
+
+input[type="search"] {
+    background-color: #fff;
+    opacity: 0.8;
+    padding: 0.1em 0.8em;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 0.7em;
+    color: #00ffda;
+    margin: 0.5em;
+    background-image: url('../img/searchlong.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 80%;
+    padding-right: 1.5em;
+    border-radius: 8px;
+    }
+
+input::-webkit-input-placeholder {
+    color: #00ffda;
+}
+
+header input[type="search"]{
+    width: 250px;
+}
+
+section{
+    overflow: hidden;
+}
+
+.research{
+    background-image: url(../img/research.png);
+    height: 270px;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+}
+
+h2{
+    font-family:'Oxygen', sans-serif; 
+    font-size: 1.2em;
+    color:#fff;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 50px;
+}
+
+p{
+    font-family:'Oxygen', sans-serif; 
+    font-size: 0.7em;
+    color:#fff;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+h3{
+    font-family:'Oxygen', sans-serif; 
+    font-size: 1em;
+    color:#00ffda;
+    padding-top: 6em;
+
+}
+
+.move{
+    float: left;
     width: 3em;
-    text-align: center;
-    display: block;
-
+    padding-top: 1em;
+    padding-left: 1em;
 }
 
-img{
-    text-align: center;
-
+section input[type="search"]{
+    width: 200px;
+    margin-top: 12em;
 }
 
+.review{
+    background-image: url(../img/review.png);
+    height: 270px;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+}
 
+.recommend{
+    background-image: url(../img/recommend.jpg);
+    height: 270px;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+}
 
+.aura{
+    background-image: url(../img/auragroup.jpg);
+    height: 300px;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+}
+
+.elsa{
+    background-image: url(../img/contributor.jpg);
+    height: 300px;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+}
 
 /* ==========================================================================
    Media Queries

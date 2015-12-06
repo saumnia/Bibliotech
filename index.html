@@ -9,77 +9,85 @@
 
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/reset.css">
+        <link href='https://fonts.googleapis.com/css?family=Oxygen:300' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
-        <header>
-            <section>
-                <nav>
+        <header class="container topbar">
+            
+                    <div class="space" >
+                        <img src="img/biblogo.png">
+                        <img src="img/bibword.png">
+                    </div>
 
-                    
-                        <img class="logo" src="img/biblogo.png">
-                        <img class="logo" src="img/bibword.png">
-                    
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Donate</a></li>
-                        <li><a href="#">SIGN UP</a></li>
-                        <li><a href="#">LOG IN</a></li>
-                    </ul>
-                    
-                </nav>
-            </section>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Donate</a></li>
+                            <li><a href="#">SIGN UP</a></li>
+                            <li><a href="#">LOG IN</a></li>
+                        </ul>
+                    </nav>
+
+                    <div class="start">
+                        <button type="button">SIGN UP</button>
+                        <button type="button">LOG IN</button>  
+                    </div>
+
+                    <input type="search" name="finder" id="finder" placeholder="What are you researching today?">
         </header>   
-        <section>
-            <div class="home">
-                
-                <button class="space" type="button">SIGN UP</button>
-                <button class="space" type="button">LOG IN</button>  
-                <input class="space" type="search" name="finder" id="finder" placeholder="What are you researching today?">
-            </div>
-
-            <div>
-                <img src="img/research.png">
+        
+        <div>
+            <section class="research">
+                <img class="move" src="img/researchl.png">
                 <h2>Research</h2>
-                <p>Get access to extensive pre-buy researches and find the best suited product for you.</p>
-                <input type="search" name="research" id="research" placeholder="Start Here">
-            </div>
+                <p>Get access to extensive pre-buy researches and find</p>
+                <p>the best suited product for you.</p>
+                <input class="place" type="search" name="research" id="research" placeholder="Start Here">
+            </section>
 
-            <div>
-                <img src="img/review.png">
+            <section class="review">
+                <img class="move" src="img/reviewl.png">
                 <h2>Review</h2>
                 <p>Find all relevant reviews in one place.</p>
-                <input type="search" name="research" id="research" placeholder="Start Here">
-            </div>
+                <input class="place" type="search" name="research" id="research" placeholder="Start Here">
+            </section>
 
-            <div>
-                <img src="img/recommend.jpg">
+            <section class="recommend">
+                <img class="move" src="img/recommendl.png">
                 <h2>Recommendations</h2>
-                <p>Know all top of the line products and contact consumers to get real recommendations.</p>
-                <input type="search" name="research" id="research" placeholder="Start Here">
-            </div>
-        </section>
+                <p>Know all top of the line products and contact consumers</p>
+                <p>to get real recommendations.</p>
+                <input class="place" type="search" name="research" id="research" placeholder="Start Here">
+            </section>
+        </div>
 
-        <section>
-            <div>
-                <img src="img/auragroup.jpg">
+        <div class="space">
+            <section class="aura">
+                
                 <h3>How it works</h3>
-                <p>Get access to extensive pre-buy researches and find the best suited product for you.</p>
+                <p>Get access to extensive pre-buy researches and find </p>
+                <p>the best suited product for you.</p>
                 <button type="button">LEARN MORE</button>
-            </div>
+            </section>
 
-            <div>
-                <img src="img/contributor.jpg">
+            <section class="elsa">
                 <h3>Become a contributor</h3>
                 <p>Earn money for decisions you already made.</p>
                 <button type="button"> START CONTRIBUTING</button>
-            </div>
-        </section>
+            </section>
+        </div>
 
-        <button>Expand</button>
-        
+        <div>
+            <img src="img/addicon.png">
+            <a href="#">Expand</a>
+        </div>
+
+        <footer>
+        </footer>
+
         <script src="js/main.js"></script>
     </body>
 </html>
