@@ -1,0 +1,41 @@
+@media (min-width: 37.5em) { /* 600px */
+
+	.research, .review, .recommend {
+		width: 500px;
+	}
+
+	.aura, .elsa{
+		width: 500px;
+	}
+
+	h3, h2{
+		font-size: 1.2em;
+	}
+	p{
+		font-size: 0.8em;
+	}
+}
+
+
+@media (min-width: 48em) { /* 768px */
+
+
+	nav{
+		float: right;
+		display: inline-block;
+	}
+
+	li{
+		float: right;
+	}
+
+	div > img{
+		width: 3em;
+		display: inline-block;
+	}
+
+	.logoss{
+		float: left;
+		width: 5em;
+		padding-left: 0.5em;
+	}
