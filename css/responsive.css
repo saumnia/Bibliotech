@@ -56,7 +56,10 @@
 
 @media (min-width: 48em) { /* 768px */
 
-
+	body{
+		overflow: hidden;
+	}
+	
 	nav{
 		float: right;
 		display: inline-block;
@@ -77,3 +80,97 @@
 		padding-left: 0.5em;
 	}
 
+	.research, .review, .recommend {
+		width: 215px;
+		height: 200px;
+		background-size: cover;
+		
+	}
+
+	.research{
+		float: left;
+
+	}
+
+	.recommend{
+		float: right;
+
+	}
+
+	.review{
+		display: inline-block;
+
+	}
+
+	.inplace{
+		width: 680px;
+		margin: 0 auto;
+		padding-top: 1em;
+		overflow: hidden;
+	}
+
+	.aura{
+		background-color: #eee;
+		width: 680px;
+		height: 200px;
+		background-position: left;
+		background-size: auto 100%;
+		margin-bottom: 1.5em;
+		
+	}
+
+	.elsa{
+		background-color: #eee;
+		width: 680px;
+		height: 200px;
+		background-position: right;
+		background-size: auto 100%;
+		margin-top: 1.5em;
+		
+	}
+
+	section input[type="search"]{
+    width: 150px;
+    margin-top: 5em;
+	}
+ 
+ .move{
+    float: left;
+    width: 2.5em;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+}
+
+h2{
+	font-size: 0.9em;
+    color:#fff;
+    text-align: left;
+    padding-left: 0.7em;
+    padding-top: 3.5em;
+}
+
+p{
+ 
+    font-size: 0.8em;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.aura > h3{
+	color:#00b29c;
+	font-size: 0.95em;
+    padding-top: 0.5em;
+    text-align: left;
+    padding-left:18em; 
+}
+
+.aura > p{
+	text-align: left;
+	color: black;
+	padding-left: 21.2em;
+}
+
+.aura > button{
+	color: #00b29c;
+	border: #00b29c solid 0.15em;
+}
