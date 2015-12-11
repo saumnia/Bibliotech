@@ -14,7 +14,44 @@
 	p{
 		font-size: 0.8em;
 	}
+
+	footer{
+		height: 8em;
+		padding: 1em
+	}
+		.icons{
+			width: 0.5em;
+			display: inline;
+			padding-left:7em;
+		}
+
+	.nowthis{
+		display: none;
+	}
+
+	.hide{
+		display: inline;
+	}
+
+	.line{
+		display: inline;
+		border-left: 1px solid #00ffda;
+	}
+
+	h4 {
+		color: #00ffda;
+		font-family: 'Oxygen', sans-serif; 
+		font-size: 0.7em;
+		float: left;
+		padding-right: 6em;
+	}
+
+	.notyet{
+		display: none;
+	}
 }
+
+
 
 
 @media (min-width: 48em) { /* 768px */
@@ -39,3 +76,4 @@
 		width: 5em;
 		padding-left: 0.5em;
 	}
+
