@@ -20,6 +20,8 @@
 		display: none;
 	}
 
+
+
 	.menu{
 		display: block;
 	}
@@ -28,20 +30,22 @@
 		margin-top: 3.5em;
 	}
 
-	.research, .review, .recommend {
-		width: 500px;
+	.one{
+		max-width: 600px;
 	}
 
-	.aura, .elsa{
-		width: 500px;
+	.aura{
+		max-width: 600px;
 	}
 
 	h3, h2{
-		font-size: 1.2em;
+		font-size: 1em;
 	}
-	p{
-		font-size: 0.8em;
+
+	h3{
+		padding-top: 6em;
 	}
+
 
 	.footer {
 		padding: 1em;
@@ -137,10 +141,14 @@
 		width: 6em;
 		padding-left: 0.5em;
 	}
+	
+	.aura{
+		max-width: 680px;
+	}
 
 	
 	.start{
-		margin-top: 10em;
+		margin-top: 13em;
 	}
 
 	.extra{
@@ -155,27 +163,33 @@
 			text-align: center;
 	}
 
-	.research, .review, .recommend {
+	.one{
 		width: 215px;
 		height: 200px;
 		background-size: cover;
 		
 	}
 
-	.research{
+	.research, .fitness{
 		float: left;
 
 	}
 
-	.recommend{
+	.recommend, .empty{
 		float: right;
 
 	}
 
-	.review{
+	.review, .lounge{
 		display: inline-block;
 
 	}
+
+	.addicon {
+    margin-left: 34%;
+    width: 4em;
+    padding-top: 6em;
+    }
 
 	.inplace{
 		width: 680px;
@@ -212,9 +226,13 @@
  
  .move{
     float: left;
-    width: 2.5em;
-    padding-top: 0.5em;
-    padding-left: 0.5em;
+    width: 2em;
+    padding-right: 0.5em;
+}
+
+.black{
+	text-align: left;
+	padding-left: 19em;
 }
 
 h2{
@@ -225,19 +243,19 @@ h2{
     padding-top: 3.5em;
 }
 
-p{
- 
-    font-size: 0.8em;
-    padding-left: 10px;
-    padding-top: 5px;
+h5{
+	padding-left: 0.7em;
+	padding-top: 0.5em;
 }
+
+
 
 .aura > h3{
 	color:#00b29c;
 	font-size: 0.95em;
     padding-top: 0.5em;
     text-align: left;
-    padding-left:15em; 
+    padding-left:16em; 
 }
 
 .aura > p{
@@ -270,7 +288,7 @@ p{
 .elsa > button{
 	color: #00b29c;
 	border: #00b29c solid 0.15em;
-	margin-top: 1.5em;
+	margin-top: 3.5em;
 	margin-left: 10em;
 
 }
