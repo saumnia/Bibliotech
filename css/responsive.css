@@ -1,5 +1,33 @@
 @media (min-width: 37.5em) { /* 600px */
 
+	.bib{
+		position: absolute;
+		margin-right: auto;
+		margin-left:auto;
+	}
+
+	.logoss{
+		width: 5em;
+		float: left;
+    	padding-left: 0.5em;
+	}
+
+	div>img{
+		display: inline;
+	}
+
+	nav ul li img{
+		display: none;
+	}
+
+	.menu{
+		display: block;
+	}
+
+	.start{
+		margin-top: 3.5em;
+	}
+
 	.research, .review, .recommend {
 		width: 500px;
 	}
@@ -15,35 +43,58 @@
 		font-size: 0.8em;
 	}
 
-	footer{
-		height: 8em;
-		padding: 1em
+	.footer {
+		padding: 1em;
+		overflow: hidden;
 	}
-		.icons{
-			width: 0.5em;
-			display: inline;
-			padding-left:7em;
-		}
 
 	.nowthis{
 		display: none;
 	}
 
 	.hide{
-		display: inline;
+		display: block;
+		width: 50%;
+		overflow: hidden;
+		float: left;
 	}
+		.hide .column {
+			width: 33.33333333%;
+			float: left;
+		}
 
 	.line{
-		display: inline;
 		border-left: 1px solid #00ffda;
+		display: block;
+		width: 50%;
+		overflow: hidden;
+		float: right;
+		text-align: left;
+		padding-left: 2em;
+	}
+	.line h4 {
+		text-align: left;
 	}
 
 	h4 {
 		color: #00ffda;
 		font-family: 'Oxygen', sans-serif; 
 		font-size: 0.7em;
-		float: left;
-		padding-right: 6em;
+		
+	}
+
+	.icons {
+		display: block;
+		height: auto;
+		padding-top: 0.75em;
+	}
+	.icons li {
+		width: 2em;
+		height: auto;
+		display: inline-block;
+	}
+	.icons li img {
+		width: 100%;
 	}
 
 	.notyet{
@@ -65,19 +116,43 @@
 		display: inline-block;
 	}
 
-	li{
+	nav >ul >li{
 		float: left;
 	}
 
+	li a {
+		color: #00ffda;
+		font-size: 0.8em;
+		padding-left: 0.7em;
+		padding-top: 0.3em;
+	}
+
 	div > img{
-		width: 3em;
+		width: 2.5em;
 		display: inline-block;
 	}
 
 	.logoss{
 		float: left;
-		width: 5em;
+		width: 6em;
 		padding-left: 0.5em;
+	}
+
+	
+	.start{
+		margin-top: 10em;
+	}
+
+	.extra{
+		display: block;
+		padding-bottom: 1em;
+	}
+
+	.extra p{
+			font-family:'Oxygen', sans-serif; 
+		    font-size: 0.7em;
+		    color:#fff;
+			text-align: center;
 	}
 
 	.research, .review, .recommend {
@@ -112,20 +187,21 @@
 	.aura{
 		background-color: #eee;
 		width: 680px;
-		height: 200px;
+		height: 163px;
 		background-position: left;
 		background-size: auto 100%;
-		margin-bottom: 1.5em;
+		
 		
 	}
 
 	.elsa{
 		background-color: #eee;
 		width: 680px;
-		height: 200px;
+		height: 163px;
 		background-position: right;
 		background-size: auto 100%;
-		margin-top: 1.5em;
+		margin-top: 1em;
+		text-align: left;
 		
 	}
 
@@ -161,16 +237,114 @@ p{
 	font-size: 0.95em;
     padding-top: 0.5em;
     text-align: left;
-    padding-left:18em; 
+    padding-left:15em; 
 }
 
 .aura > p{
 	text-align: left;
 	color: black;
-	padding-left: 21.2em;
+	padding-left: 18em;
 }
 
 .aura > button{
 	color: #00b29c;
 	border: #00b29c solid 0.15em;
+	margin-top: 2.5em;
+	margin-left: 14em;
 }
+
+.elsa > h3{
+	color:#00b29c;
+	font-size: 0.95em;
+    padding-top: 0.5em;
+    text-align: left;
+    padding-left:0.5em; 
+}
+
+.elsa > p{
+	text-align: left;
+	color: black;
+	padding-left: 0.5em;
+}
+
+.elsa > button{
+	color: #00b29c;
+	border: #00b29c solid 0.15em;
+	margin-top: 1.5em;
+	margin-left: 10em;
+
+}
+
+.line{
+	float: none;
+}
+
+
+.line .icons{
+	width: 25%;
+}
+
+.icons img{
+	padding-bottom: 0.7em;
+}
+
+.footer{
+	padding-left: 4.8em;
+
+}
+
+.hide{
+	text-align: left;
+}
+.notyet{
+	display: inline-block;
+	float: none;
+	color: #fff;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 0.6em;
+	text-align: left;
+	padding-top: 1em;
+
+}
+
+.notyet li{
+	padding-top: 0.2em;
+}
+
+.last{
+	display: inline;
+	float: right;
+
+}
+
+select {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   border-radius: 1em;
+   opacity: 0.8;
+   color: #00ffda;
+   font-family: 'Oxygen', sans-serif;
+   font-size: 0.5em;
+   padding: 0.5em 1em;
+}
+
+.last p{
+	font-family: 'Oxygen', sans-serif;
+	font-size: 0.6em;
+	color: #00ffda;
+	padding-top: 7em;
+}
+
+@media (min-width: 75em) { /* 1200px */
+	body{
+		background-color: #eee;
+		
+	}
+
+	.contained{
+		max-width: 75em;
+		background-color: #fff;
+		text-align: center;
+		margin: 0 auto;
+	}

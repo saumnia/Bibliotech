@@ -17,46 +17,52 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
+    <div class="contained">
         <header class="container topbar">
             
-                    <div class="space" >
-                        <img src="img/biblogo.png">
-                        <img class="logoss"src="img/bibword.png">
-                    </div>
-
+                <div class="space" >
+                    <img class="bib" src="img/biblogo.png">
+                    <img class="logoss"src="img/bibword.png">
+                
                     <nav>
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Donate</a></li>
-                            <li><a href="#">SIGN UP</a></li>
-                            <li><a href="#">LOG IN</a></li>
+                        <ul class="mainmenu">
+                            <li class="ham"><img src="img/menuicon.png"></li>
+                            <li class="menu"><a href="#">Home</a></li>
+                            <li class="menu"><a href="#">Donate</a></li>
+                            <li class="menu"><a href="#">SIGN UP</a></li>
+                            <li class="menu"><a href="#">LOG IN</a></li>
                         </ul>
                     </nav>
+                </div>
 
-                    <div class="start">
-                        <button type="button">SIGN UP</button>
-                        <button type="button">LOG IN</button>  
+                <div class="start">
+                    <div class="extra">
+                        <p>From event planning to buying a new kitchen appliance.</p>
+                        <p>We've got you covered!</p>
                     </div>
+                    <button type="button">SIGN UP</button>
+                    <button type="button">LOG IN</button> 
+                </div>
 
-                    <input type="search" name="finder" id="finder" placeholder="What are you researching today?">
+                <input type="search" name="finder" id="finder" placeholder="What are you researching today?">
         </header>   
         
         <div class="inplace">
-            <section class="research">
+            <section class="research common">
                 <img class="move" src="img/researchl.png">
                 <h2>Research</h2>
                 <p>Get access to extensive pre-buy researches and find the best suited product for you.</p>
                 <input class="place" type="search" name="research" id="research" placeholder="Start Here">
             </section>
 
-            <section class="review">
+            <section class="review common">
                 <img class="move" src="img/reviewl.png">
                 <h2>Review</h2>
                 <p>Find all relevant reviews in one place, and store all data for future reference.</p>
                 <input class="place" type="search" name="research" id="research" placeholder="Start Here">
             </section>
 
-            <section class="recommend">
+            <section class="recommend common">
                 <img class="move" src="img/recommendl.png">
                 <h2>Recommendations</h2>
                 <p>Know all top of the line products and contact consumers to get real recommendations.</p>
@@ -65,14 +71,14 @@
         </div>
 
         <div class="space">
-            <section class="aura">
+            <section class="aura common2">
                 <h3>How it works</h3>
                 <p class="moveit">Get access to extensive pre-buy researches and find </p>
                 <p class="moveit">the best suited product for you.</p>
                 <button type="button">LEARN MORE</button>
             </section>
 
-            <section class="elsa">
+            <section class="elsa common2">
                 <h3>Become a contributor</h3>
                 <p class="moveit">Earn money for decisions you already made.</p>
                 <button type="button"> START CONTRIBUTING</button>
@@ -84,7 +90,7 @@
             
         </section>
 
-        <footer>
+        <footer class="footer">
             <div class= "nowthis">
                 <img src="img/homeicon.png">
                 <img src="img/searchicon.png">
@@ -94,30 +100,39 @@
             </div>
 
             <div class="hide">
-                <h4>Company</h4>    
-                    <ul class="notyet">
-                        <li>About</li>
-                        <li>Careers</li>
-                        <li>Press</li>
-                        <li>Blog</li>
-                        <li>Help</li>
-                        <li>Support</li>
-                        <li>Terms and Privacy</li>
-                    </ul>
-                <h4>Discover</h4>
-                    <ul class="notyet">
-                        <li>Trust and Saftey</li>
-                        <li>Invite friends</li>
-                        <li>Mobile</li>
-                        <li>Site Map</li>
-                    </ul>
-                <h4>Contribute</h4>
-                    <ul class="notyet">
-                        <li>Why Join</li>
-                        <li>Documenting aid</li>
-                        <li>Contribution</li>
-                        <li>Payment</li>
-                    </ul> 
+                
+                <div class="column">
+                    <h4>Company</h4>    
+                        <ul class="notyet">
+                            <li>About</li>
+                            <li>Careers</li>
+                            <li>Press</li>
+                            <li>Blog</li>
+                            <li>Help</li>
+                            <li>Support</li>
+                            <li>Terms and Privacy</li>
+                        </ul>
+                </div>
+                
+                <div class="column">
+                    <h4>Discover</h4>
+                        <ul class="notyet">
+                            <li>Trust and Saftey</li>
+                            <li>Invite friends</li>
+                            <li>Mobile</li>
+                            <li>Site Map</li>
+                        </ul>
+                </div>
+                
+                <div class="column">
+                    <h4>Contribute</h4>
+                        <ul class="notyet">
+                            <li>Why Join</li>
+                            <li>Documenting aid</li>
+                            <li>Contribution</li>
+                            <li>Payment</li>
+                        </ul>
+                </div> 
             </div>
 
             <div class="line">
@@ -131,7 +146,17 @@
                     <li><img src="img/googleplus.png"></li>
                 </ul>
             </div>
+
+            <div class="last">
+                <select class="style">
+                    <option value=ENGLISH>ENGLISH (CANADA)</option>
+                    <option value=FRENCH>FRENCH (CANADA)</option>
+                </select>
+
+                <p>© Bibliotech, Inc.</p>
+            </div>
         </footer>
+        </div>
 
         <script src="js/main.js"></script>
     </body>
