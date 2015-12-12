@@ -191,13 +191,7 @@ section{
 
 .research{
     background-image: url(../img/research.png);
-    height: 270px;
-    width: 320px;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-right: auto;
-    margin-left: auto;
-    overflow: hidden;
+
 }
 
 h2{
@@ -238,21 +232,30 @@ section input[type="search"]{
     margin-top: 12em;
 }
 
-.review{
-    background-image: url(../img/review.png);
+.one{
     height: 270px;
-    width: 320px;
+    width: 100%;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     margin-right: auto;
     margin-left: auto;
     overflow: hidden;
 }
 
+.review{
+    background-image: url(../img/review.png);
+
+}
+
 .recommend{
     background-image: url(../img/recommend.jpg);
-    height: 270px;
-    width: 320px;
+
+}
+
+.common{
+    height: 300px;
+    width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     margin-right: auto;
@@ -262,24 +265,12 @@ section input[type="search"]{
 
 .aura{
     background-image: url(../img/auragroup.jpg);
-    height: 300px;
-    width: 320px;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-right: auto;
-    margin-left: auto;
-    overflow: hidden;
+ 
 }
 
 .elsa{
     background-image: url(../img/contributor.jpg);
-    height: 300px;
-    width: 320px;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-right: auto;
-    margin-left: auto;
-    overflow: hidden;
+
 }
 
 .moveit{
@@ -347,13 +338,10 @@ footer{
         margin-top: 3.5em;
     }
 
-    .research, .review, .recommend {
-        width: 500px;
+    .one {
+        max-width: 600px;
     }
 
-    .aura, .elsa{
-        width: 500px;
-    }
 
     h3, h2{
         font-size: 1.2em;
@@ -556,13 +544,13 @@ p{
     font-size: 0.95em;
     padding-top: 0.5em;
     text-align: left;
-    padding-left:15em; 
+    padding-left:18em; 
 }
 
 .aura > p{
     text-align: left;
     color: black;
-    padding-left: 18em;
+    padding-left: 21.3em;
 }
 
 .aura > button{
