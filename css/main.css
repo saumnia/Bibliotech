@@ -188,9 +188,30 @@ header input[type="search"]{
 section{
     overflow: hidden;
 }
+.one{
+    height: 270px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: hidden;
+}
+
 
 .research{
     background-image: url(../img/research.png);
+
+}
+
+.review{
+    background-image: url(../img/review.png);
+
+}
+
+.recommend{
+    background-image: url(../img/recommend.jpg);
 
 }
 
@@ -230,27 +251,6 @@ h3{
 section input[type="search"]{
     width: 200px;
     margin-top: 12em;
-}
-
-.one{
-    height: 270px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    margin-right: auto;
-    margin-left: auto;
-    overflow: hidden;
-}
-
-.review{
-    background-image: url(../img/review.png);
-
-}
-
-.recommend{
-    background-image: url(../img/recommend.jpg);
-
 }
 
 .common{

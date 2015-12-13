@@ -20,8 +20,6 @@
 		display: none;
 	}
 
-
-
 	.menu{
 		display: block;
 	}
@@ -30,13 +28,9 @@
 		margin-top: 3.5em;
 	}
 
-	.one{
+	.one, .aura{
 		max-width: 600px;
 	}
-
-	/*.common{
-	max-width: 600px;
-	}*/
 
 	h3, h2{
 		font-size: 1em;
